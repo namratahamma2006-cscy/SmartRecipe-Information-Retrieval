@@ -1,0 +1,899 @@
+[
+  {
+    "id": "r01", "name": "Classic Margherita Pizza", "cuisine": "Italian", "course": "Main",
+    "time_minutes": 45, "servings": 2, "difficulty": "Medium",
+    "description": "Neapolitan-style pizza with a crisp homemade crust, tangy tomato, melting mozzarella and fragrant basil.",
+    "tags": ["pizza", "baked", "cheesy", "classic"],
+    "ingredients": [
+      {"name": "flour", "quantity": "250 g"}, {"name": "yeast", "quantity": "1 tsp"},
+      {"name": "water", "quantity": "160 ml"}, {"name": "tomato", "quantity": "3, crushed"},
+      {"name": "mozzarella", "quantity": "150 g"}, {"name": "basil", "quantity": "a handful"},
+      {"name": "olive oil", "quantity": "2 tbsp"}, {"name": "salt", "quantity": "1 tsp"}
+    ],
+    "instructions": [
+      "Mix flour, yeast, salt and warm water into a soft dough and knead for 8 minutes.",
+      "Cover and let the dough rise for 30 minutes until doubled.",
+      "Crush the tomatoes with a pinch of salt and a drizzle of olive oil to make the sauce.",
+      "Stretch the dough into a thin round, spread the sauce and tear over the mozzarella.",
+      "Bake at the highest oven temperature for 10-12 minutes and finish with fresh basil."
+    ]
+  },
+  {
+    "id": "r02", "name": "Spaghetti Aglio e Olio", "cuisine": "Italian", "course": "Main",
+    "time_minutes": 20, "servings": 2, "difficulty": "Easy",
+    "description": "A quick Roman pasta of spaghetti tossed in golden garlic, olive oil and chili flakes.",
+    "tags": ["pasta", "quick", "garlicky", "weeknight"],
+    "ingredients": [
+      {"name": "spaghetti", "quantity": "200 g"}, {"name": "garlic", "quantity": "6 cloves, sliced"},
+      {"name": "olive oil", "quantity": "5 tbsp"}, {"name": "chili flakes", "quantity": "1/2 tsp"},
+      {"name": "parsley", "quantity": "a handful, chopped"}, {"name": "parmesan", "quantity": "30 g, grated"},
+      {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Cook the spaghetti in well-salted boiling water until al dente; reserve a cup of pasta water.",
+      "Gently fry the sliced garlic in olive oil until just golden, then add chili flakes.",
+      "Toss the drained spaghetti in the garlic oil with a splash of pasta water until glossy.",
+      "Finish with chopped parsley and grated parmesan."
+    ]
+  },
+  {
+    "id": "r03", "name": "Creamy Mushroom Risotto", "cuisine": "Italian", "course": "Main",
+    "time_minutes": 40, "servings": 3, "difficulty": "Medium",
+    "description": "Silky arborio rice slowly cooked with mushrooms, white wine and parmesan.",
+    "tags": ["rice", "creamy", "comfort"],
+    "ingredients": [
+      {"name": "arborio rice", "quantity": "250 g"}, {"name": "mushroom", "quantity": "250 g, sliced"},
+      {"name": "onion", "quantity": "1, diced"}, {"name": "garlic", "quantity": "2 cloves"},
+      {"name": "vegetable broth", "quantity": "1 litre, hot"}, {"name": "white wine", "quantity": "100 ml"},
+      {"name": "butter", "quantity": "30 g"}, {"name": "parmesan", "quantity": "50 g"},
+      {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Saute the onion and garlic in butter, then brown the mushrooms.",
+      "Stir in the arborio rice and toast for 1 minute; deglaze with white wine.",
+      "Add the hot broth one ladle at a time, stirring until absorbed, for about 20 minutes.",
+      "Beat in the remaining butter and parmesan, season and rest for 2 minutes before serving."
+    ]
+  },
+  {
+    "id": "r04", "name": "Chicken Tikka Masala", "cuisine": "Indian", "course": "Main",
+    "time_minutes": 50, "servings": 4, "difficulty": "Medium",
+    "description": "Yogurt-marinated chicken in a spiced, creamy tomato curry sauce.",
+    "tags": ["curry", "spicy", "creamy", "dinner"],
+    "ingredients": [
+      {"name": "chicken", "quantity": "600 g, cubed"}, {"name": "yogurt", "quantity": "150 g"},
+      {"name": "garam masala", "quantity": "2 tsp"}, {"name": "tomato", "quantity": "400 g, pureed"},
+      {"name": "onion", "quantity": "1, finely chopped"}, {"name": "garlic", "quantity": "3 cloves"},
+      {"name": "ginger", "quantity": "1 inch, grated"}, {"name": "cream", "quantity": "100 ml"},
+      {"name": "chili powder", "quantity": "1 tsp"}, {"name": "butter", "quantity": "2 tbsp"},
+      {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Marinate the chicken in yogurt, half the garam masala, chili powder and salt for 20 minutes.",
+      "Sear or grill the chicken until charred at the edges; set aside.",
+      "Cook the onion, garlic and ginger in butter until soft, add the tomato puree and simmer 10 minutes.",
+      "Stir in the remaining garam masala, the cream and the chicken; simmer 10 minutes until thick."
+    ]
+  },
+  {
+    "id": "r05", "name": "Chana Masala", "cuisine": "Indian", "course": "Main",
+    "time_minutes": 35, "servings": 4, "difficulty": "Easy",
+    "description": "Hearty North Indian chickpea curry simmered in a tangy, spicy onion-tomato gravy.",
+    "tags": ["curry", "spicy", "legumes", "protein"],
+    "ingredients": [
+      {"name": "chickpea", "quantity": "2 cans, drained"}, {"name": "onion", "quantity": "2, chopped"},
+      {"name": "tomato", "quantity": "3, chopped"}, {"name": "garlic", "quantity": "3 cloves"},
+      {"name": "ginger", "quantity": "1 inch"}, {"name": "garam masala", "quantity": "2 tsp"},
+      {"name": "cumin", "quantity": "1 tsp"}, {"name": "chili", "quantity": "1 green chili"},
+      {"name": "cilantro", "quantity": "for garnish"}, {"name": "oil", "quantity": "2 tbsp"},
+      {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Heat oil, crackle the cumin seeds, then fry the onion until deep golden.",
+      "Add garlic, ginger and green chili, then the tomatoes; cook until oil separates.",
+      "Stir in garam masala and the chickpeas with a cup of water and simmer 15 minutes.",
+      "Mash a few chickpeas to thicken, season and garnish with cilantro."
+    ]
+  },
+  {
+    "id": "r06", "name": "Palak Paneer", "cuisine": "Indian", "course": "Main",
+    "time_minutes": 35, "servings": 3, "difficulty": "Medium",
+    "description": "Soft paneer cubes in a vibrant, mildly spiced spinach curry.",
+    "tags": ["curry", "green", "protein"],
+    "ingredients": [
+      {"name": "spinach", "quantity": "500 g"}, {"name": "paneer", "quantity": "250 g, cubed"},
+      {"name": "onion", "quantity": "1"}, {"name": "garlic", "quantity": "3 cloves"},
+      {"name": "ginger", "quantity": "1 inch"}, {"name": "cream", "quantity": "3 tbsp"},
+      {"name": "cumin", "quantity": "1 tsp"}, {"name": "garam masala", "quantity": "1 tsp"},
+      {"name": "chili", "quantity": "1"}, {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Blanch the spinach for 2 minutes, cool in ice water and blend with the green chili.",
+      "Fry cumin, onion, garlic and ginger until soft.",
+      "Add the spinach puree and garam masala and simmer 5 minutes.",
+      "Fold in the paneer cubes and cream, heat through and serve with rice or naan."
+    ]
+  },
+  {
+    "id": "r07", "name": "Vegetable Biryani", "cuisine": "Indian", "course": "Main",
+    "time_minutes": 60, "servings": 4, "difficulty": "Hard",
+    "description": "Fragrant layered basmati rice with spiced vegetables, mint and ghee.",
+    "tags": ["rice", "festive", "aromatic", "one pot"],
+    "ingredients": [
+      {"name": "basmati rice", "quantity": "300 g, soaked"}, {"name": "carrot", "quantity": "2, diced"},
+      {"name": "pea", "quantity": "100 g"}, {"name": "potato", "quantity": "2, cubed"},
+      {"name": "onion", "quantity": "2, sliced"}, {"name": "yogurt", "quantity": "100 g"},
+      {"name": "garam masala", "quantity": "2 tsp"}, {"name": "mint", "quantity": "a handful"},
+      {"name": "ghee", "quantity": "3 tbsp"}, {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Par-boil the soaked basmati rice in salted water until 70% cooked, then drain.",
+      "Fry the sliced onions in ghee until crisp; remove half for garnish.",
+      "Cook the vegetables with yogurt, garam masala and salt for 10 minutes.",
+      "Layer the vegetables and rice in a heavy pot with mint and fried onions.",
+      "Cover tightly and cook on very low heat (dum) for 20 minutes."
+    ]
+  },
+  {
+    "id": "r08", "name": "Dal Tadka", "cuisine": "Indian", "course": "Main",
+    "time_minutes": 30, "servings": 4, "difficulty": "Easy",
+    "description": "Comforting yellow lentils finished with a sizzling tempering of ghee, cumin and garlic.",
+    "tags": ["lentils", "comfort", "protein", "everyday"],
+    "ingredients": [
+      {"name": "lentil", "quantity": "200 g"}, {"name": "onion", "quantity": "1"},
+      {"name": "tomato", "quantity": "2"}, {"name": "garlic", "quantity": "4 cloves"},
+      {"name": "cumin", "quantity": "1 tsp"}, {"name": "turmeric", "quantity": "1/2 tsp"},
+      {"name": "chili", "quantity": "2 dried"}, {"name": "ghee", "quantity": "2 tbsp"},
+      {"name": "cilantro", "quantity": "to garnish"}, {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Pressure cook or simmer the lentils with turmeric and water until soft and creamy.",
+      "Cook the onion and tomato separately until jammy and stir into the dal.",
+      "For the tadka, heat ghee, add cumin, garlic and dried chili until sizzling.",
+      "Pour the tadka over the dal and garnish with cilantro."
+    ]
+  },
+  {
+    "id": "r09", "name": "Fresh Guacamole", "cuisine": "Mexican", "course": "Snack",
+    "time_minutes": 10, "servings": 4, "difficulty": "Easy",
+    "description": "Chunky avocado dip brightened with lime, onion, tomato and cilantro.",
+    "tags": ["dip", "no cook", "party", "fresh"],
+    "ingredients": [
+      {"name": "avocado", "quantity": "3 ripe"}, {"name": "lime", "quantity": "1"},
+      {"name": "onion", "quantity": "1/2, finely chopped"}, {"name": "tomato", "quantity": "1, diced"},
+      {"name": "cilantro", "quantity": "2 tbsp"}, {"name": "chili", "quantity": "1 jalapeno"},
+      {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Halve the avocados, scoop out the flesh and mash roughly with a fork.",
+      "Fold in the onion, tomato, chili and cilantro.",
+      "Season with lime juice and salt and serve immediately with tortilla chips."
+    ]
+  },
+  {
+    "id": "r10", "name": "Chicken Tacos", "cuisine": "Mexican", "course": "Main",
+    "time_minutes": 30, "servings": 4, "difficulty": "Easy",
+    "description": "Smoky spiced chicken in warm corn tortillas with avocado, lime and cilantro.",
+    "tags": ["tacos", "street food", "spicy"],
+    "ingredients": [
+      {"name": "chicken", "quantity": "500 g"}, {"name": "corn tortilla", "quantity": "8"},
+      {"name": "onion", "quantity": "1"}, {"name": "lime", "quantity": "2"},
+      {"name": "cilantro", "quantity": "a handful"}, {"name": "chili powder", "quantity": "2 tsp"},
+      {"name": "cumin", "quantity": "1 tsp"}, {"name": "avocado", "quantity": "1"},
+      {"name": "garlic", "quantity": "2 cloves"}, {"name": "oil", "quantity": "1 tbsp"},
+      {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Rub the chicken with chili powder, cumin, garlic, lime juice, salt and oil.",
+      "Pan-fry or grill for 6-7 minutes per side, rest, then slice thinly.",
+      "Warm the corn tortillas in a dry pan.",
+      "Fill with chicken, sliced avocado, onion and cilantro; serve with lime wedges."
+    ]
+  },
+  {
+    "id": "r11", "name": "Black Bean Burrito Bowl", "cuisine": "Mexican", "course": "Main",
+    "time_minutes": 30, "servings": 2, "difficulty": "Easy",
+    "description": "Cumin rice bowl loaded with black beans, corn, tomato salsa and avocado.",
+    "tags": ["bowl", "meal prep", "protein", "healthy"],
+    "ingredients": [
+      {"name": "black bean", "quantity": "1 can"}, {"name": "rice", "quantity": "150 g"},
+      {"name": "corn", "quantity": "100 g"}, {"name": "tomato", "quantity": "2"},
+      {"name": "avocado", "quantity": "1"}, {"name": "lime", "quantity": "1"},
+      {"name": "cilantro", "quantity": "a handful"}, {"name": "cumin", "quantity": "1 tsp"},
+      {"name": "onion", "quantity": "1/2"}, {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Cook the rice and stir through lime juice and chopped cilantro.",
+      "Warm the black beans with cumin, salt and a splash of water.",
+      "Make a quick salsa with tomato, onion and lime.",
+      "Assemble bowls with rice, beans, corn, salsa and sliced avocado."
+    ]
+  },
+  {
+    "id": "r12", "name": "Beef Chili con Carne", "cuisine": "Mexican", "course": "Main",
+    "time_minutes": 60, "servings": 6, "difficulty": "Medium",
+    "description": "Rich slow-simmered beef and kidney bean chili with smoky spices.",
+    "tags": ["stew", "spicy", "comfort", "one pot"],
+    "ingredients": [
+      {"name": "beef", "quantity": "500 g, minced"}, {"name": "kidney bean", "quantity": "2 cans"},
+      {"name": "tomato", "quantity": "800 g, chopped"}, {"name": "onion", "quantity": "1"},
+      {"name": "garlic", "quantity": "3 cloves"}, {"name": "chili powder", "quantity": "2 tsp"},
+      {"name": "cumin", "quantity": "2 tsp"}, {"name": "bell pepper", "quantity": "1"},
+      {"name": "oil", "quantity": "1 tbsp"}, {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Brown the beef in oil, breaking it up; remove excess fat.",
+      "Add onion, garlic and bell pepper and cook until soft.",
+      "Stir in chili powder and cumin, then the tomatoes and kidney beans.",
+      "Simmer gently for 40 minutes, stirring occasionally, until thick and rich."
+    ]
+  },
+  {
+    "id": "r13", "name": "Shrimp Pad Thai", "cuisine": "Thai", "course": "Main",
+    "time_minutes": 30, "servings": 2, "difficulty": "Medium",
+    "description": "Stir-fried rice noodles with shrimp, egg, bean sprouts, peanuts and lime.",
+    "tags": ["noodles", "stir fry", "street food"],
+    "ingredients": [
+      {"name": "rice noodles", "quantity": "200 g"}, {"name": "shrimp", "quantity": "200 g"},
+      {"name": "egg", "quantity": "2"}, {"name": "bean sprout", "quantity": "100 g"},
+      {"name": "peanut", "quantity": "40 g, crushed"}, {"name": "fish sauce", "quantity": "2 tbsp"},
+      {"name": "tamarind", "quantity": "2 tbsp paste"}, {"name": "garlic", "quantity": "2 cloves"},
+      {"name": "lime", "quantity": "1"}, {"name": "green onion", "quantity": "3"},
+      {"name": "sugar", "quantity": "1 tbsp"}, {"name": "oil", "quantity": "2 tbsp"}
+    ],
+    "instructions": [
+      "Soak the rice noodles in warm water until pliable; drain.",
+      "Mix tamarind, fish sauce and sugar to make the sauce.",
+      "Stir-fry garlic and shrimp in a hot wok, push aside and scramble the eggs.",
+      "Add noodles and sauce and toss until coated, then add bean sprouts and green onion.",
+      "Serve topped with crushed peanuts and lime wedges."
+    ]
+  },
+  {
+    "id": "r14", "name": "Thai Green Curry", "cuisine": "Thai", "course": "Main",
+    "time_minutes": 35, "servings": 4, "difficulty": "Medium",
+    "description": "Aromatic coconut curry with chicken, eggplant, bell pepper and Thai basil.",
+    "tags": ["curry", "spicy", "creamy", "coconut"],
+    "ingredients": [
+      {"name": "chicken", "quantity": "500 g"}, {"name": "coconut milk", "quantity": "400 ml"},
+      {"name": "green curry paste", "quantity": "3 tbsp"}, {"name": "eggplant", "quantity": "1"},
+      {"name": "bell pepper", "quantity": "1"}, {"name": "basil", "quantity": "a handful"},
+      {"name": "fish sauce", "quantity": "1 tbsp"}, {"name": "rice", "quantity": "to serve"},
+      {"name": "oil", "quantity": "1 tbsp"}
+    ],
+    "instructions": [
+      "Fry the green curry paste in oil until fragrant.",
+      "Add the chicken and cook until sealed, then pour in the coconut milk.",
+      "Add eggplant and bell pepper and simmer 15 minutes.",
+      "Season with fish sauce, stir in basil and serve with steamed rice."
+    ]
+  },
+  {
+    "id": "r15", "name": "Rainbow Vegetable Stir Fry", "cuisine": "Chinese", "course": "Main",
+    "time_minutes": 20, "servings": 2, "difficulty": "Easy",
+    "description": "Crisp broccoli, carrot and bell pepper tossed in a garlic-ginger soy glaze.",
+    "tags": ["stir fry", "quick", "healthy", "wok"],
+    "ingredients": [
+      {"name": "broccoli", "quantity": "1 head"}, {"name": "carrot", "quantity": "2"},
+      {"name": "bell pepper", "quantity": "1"}, {"name": "garlic", "quantity": "2 cloves"},
+      {"name": "ginger", "quantity": "1 inch"}, {"name": "soy sauce", "quantity": "3 tbsp"},
+      {"name": "sesame oil", "quantity": "1 tsp"}, {"name": "rice", "quantity": "to serve"},
+      {"name": "oil", "quantity": "1 tbsp"}
+    ],
+    "instructions": [
+      "Cut all vegetables into bite-sized pieces.",
+      "Stir-fry garlic and ginger in a very hot wok for 30 seconds.",
+      "Add broccoli and carrot first, then bell pepper, tossing for 4-5 minutes.",
+      "Add soy sauce and sesame oil, toss and serve over rice."
+    ]
+  },
+  {
+    "id": "r16", "name": "Egg Fried Rice", "cuisine": "Chinese", "course": "Main",
+    "time_minutes": 20, "servings": 2, "difficulty": "Easy",
+    "description": "Wok-tossed day-old rice with scrambled egg, peas, carrot and green onion.",
+    "tags": ["rice", "quick", "leftovers", "wok"],
+    "ingredients": [
+      {"name": "rice", "quantity": "300 g, cooked and cold"}, {"name": "egg", "quantity": "3"},
+      {"name": "pea", "quantity": "80 g"}, {"name": "carrot", "quantity": "1, diced"},
+      {"name": "green onion", "quantity": "3"}, {"name": "soy sauce", "quantity": "2 tbsp"},
+      {"name": "garlic", "quantity": "2 cloves"}, {"name": "oil", "quantity": "2 tbsp"}
+    ],
+    "instructions": [
+      "Scramble the eggs in a hot wok with a little oil, then remove.",
+      "Stir-fry garlic, carrot and peas for 2 minutes.",
+      "Add the cold rice and fry on high heat, breaking up clumps.",
+      "Return the egg, add soy sauce and green onion and toss well."
+    ]
+  },
+  {
+    "id": "r17", "name": "Miso Soup", "cuisine": "Japanese", "course": "Soup",
+    "time_minutes": 15, "servings": 4, "difficulty": "Easy",
+    "description": "Light, savoury Japanese broth with miso, silken tofu, seaweed and green onion.",
+    "tags": ["soup", "light", "umami", "quick"],
+    "ingredients": [
+      {"name": "miso paste", "quantity": "3 tbsp"}, {"name": "tofu", "quantity": "200 g"},
+      {"name": "seaweed", "quantity": "2 tbsp dried wakame"}, {"name": "green onion", "quantity": "2"},
+      {"name": "water", "quantity": "1 litre"}
+    ],
+    "instructions": [
+      "Rehydrate the seaweed in water for 5 minutes.",
+      "Heat the water until just below boiling and add cubed tofu and seaweed.",
+      "Whisk the miso paste with a little hot broth and stir it back in; do not boil.",
+      "Serve topped with sliced green onion."
+    ]
+  },
+  {
+    "id": "r18", "name": "Teriyaki Salmon", "cuisine": "Japanese", "course": "Main",
+    "time_minutes": 25, "servings": 2, "difficulty": "Easy",
+    "description": "Glossy honey-soy glazed salmon with ginger and sesame, served on rice.",
+    "tags": ["fish", "dinner", "glazed", "protein"],
+    "ingredients": [
+      {"name": "salmon", "quantity": "2 fillets"}, {"name": "soy sauce", "quantity": "3 tbsp"},
+      {"name": "honey", "quantity": "2 tbsp"}, {"name": "ginger", "quantity": "1 tsp grated"},
+      {"name": "garlic", "quantity": "1 clove"}, {"name": "sesame seed", "quantity": "1 tsp"},
+      {"name": "rice", "quantity": "to serve"}, {"name": "oil", "quantity": "1 tbsp"}
+    ],
+    "instructions": [
+      "Whisk soy sauce, honey, ginger and garlic into a teriyaki sauce.",
+      "Sear the salmon skin-side down in oil for 4 minutes, then flip.",
+      "Pour in the sauce and simmer, basting, until sticky and glossy.",
+      "Sprinkle with sesame seeds and serve over rice."
+    ]
+  },
+  {
+    "id": "r19", "name": "Greek Salad", "cuisine": "Mediterranean", "course": "Salad",
+    "time_minutes": 15, "servings": 2, "difficulty": "Easy",
+    "description": "Crunchy cucumber, tomato, olives and onion with creamy feta and oregano dressing.",
+    "tags": ["salad", "no cook", "fresh", "healthy"],
+    "ingredients": [
+      {"name": "cucumber", "quantity": "1"}, {"name": "tomato", "quantity": "3"},
+      {"name": "onion", "quantity": "1/2 red onion"}, {"name": "olive", "quantity": "a handful"},
+      {"name": "feta", "quantity": "150 g"}, {"name": "olive oil", "quantity": "3 tbsp"},
+      {"name": "oregano", "quantity": "1 tsp dried"}, {"name": "lemon", "quantity": "1/2"}
+    ],
+    "instructions": [
+      "Chop the cucumber and tomatoes into chunks and thinly slice the onion.",
+      "Combine in a bowl with the olives.",
+      "Top with a slab of feta, drizzle with olive oil and lemon, and sprinkle oregano."
+    ]
+  },
+  {
+    "id": "r20", "name": "Caesar Salad", "cuisine": "American", "course": "Salad",
+    "time_minutes": 20, "servings": 2, "difficulty": "Easy",
+    "description": "Crisp lettuce with garlicky croutons, parmesan and a tangy anchovy dressing.",
+    "tags": ["salad", "classic", "lunch"],
+    "ingredients": [
+      {"name": "lettuce", "quantity": "1 head romaine"}, {"name": "bread", "quantity": "2 slices"},
+      {"name": "parmesan", "quantity": "40 g"}, {"name": "egg", "quantity": "1 yolk"},
+      {"name": "garlic", "quantity": "1 clove"}, {"name": "lemon", "quantity": "1/2"},
+      {"name": "olive oil", "quantity": "4 tbsp"}, {"name": "anchovy", "quantity": "2 fillets"}
+    ],
+    "instructions": [
+      "Cube the bread, toss with olive oil and garlic and toast until golden to make croutons.",
+      "Blend egg yolk, anchovy, garlic, lemon and parmesan, then stream in olive oil.",
+      "Toss torn lettuce with the dressing and top with croutons and shaved parmesan."
+    ]
+  },
+  {
+    "id": "r21", "name": "Caprese Salad", "cuisine": "Italian", "course": "Salad",
+    "time_minutes": 10, "servings": 2, "difficulty": "Easy",
+    "description": "Simple layers of ripe tomato, fresh mozzarella and basil with balsamic.",
+    "tags": ["salad", "no cook", "summer", "fresh"],
+    "ingredients": [
+      {"name": "tomato", "quantity": "3 large"}, {"name": "mozzarella", "quantity": "200 g"},
+      {"name": "basil", "quantity": "a handful"}, {"name": "olive oil", "quantity": "2 tbsp"},
+      {"name": "balsamic vinegar", "quantity": "1 tbsp"}, {"name": "salt", "quantity": "a pinch"}
+    ],
+    "instructions": [
+      "Slice the tomatoes and mozzarella into rounds.",
+      "Arrange alternately on a plate with basil leaves.",
+      "Drizzle with olive oil and balsamic vinegar and season with salt."
+    ]
+  },
+  {
+    "id": "r22", "name": "Roasted Tomato Basil Soup", "cuisine": "Italian", "course": "Soup",
+    "time_minutes": 35, "servings": 4, "difficulty": "Easy",
+    "description": "Velvety soup of roasted tomatoes, garlic and basil finished with a swirl of cream.",
+    "tags": ["soup", "vegetable", "comfort", "creamy"],
+    "ingredients": [
+      {"name": "tomato", "quantity": "1 kg"}, {"name": "onion", "quantity": "1"},
+      {"name": "garlic", "quantity": "4 cloves"}, {"name": "basil", "quantity": "a handful"},
+      {"name": "vegetable broth", "quantity": "500 ml"}, {"name": "cream", "quantity": "60 ml"},
+      {"name": "olive oil", "quantity": "2 tbsp"}, {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Roast halved tomatoes, onion and garlic with olive oil at 200C for 25 minutes.",
+      "Transfer to a pot with the vegetable broth and simmer 5 minutes.",
+      "Blend with the basil until smooth, stir in cream and season."
+    ]
+  },
+  {
+    "id": "r23", "name": "Spiced Pumpkin Soup", "cuisine": "American", "course": "Soup",
+    "time_minutes": 40, "servings": 4, "difficulty": "Easy",
+    "description": "Silky autumn soup of pumpkin, coconut milk and warm nutmeg.",
+    "tags": ["soup", "vegetable", "autumn", "creamy"],
+    "ingredients": [
+      {"name": "pumpkin", "quantity": "1 kg, cubed"}, {"name": "onion", "quantity": "1"},
+      {"name": "garlic", "quantity": "2 cloves"}, {"name": "vegetable broth", "quantity": "750 ml"},
+      {"name": "coconut milk", "quantity": "200 ml"}, {"name": "nutmeg", "quantity": "1/4 tsp"},
+      {"name": "oil", "quantity": "1 tbsp"}, {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Soften the onion and garlic in oil.",
+      "Add the pumpkin and broth and simmer for 20 minutes until tender.",
+      "Blend until smooth with the coconut milk and nutmeg; season to taste."
+    ]
+  },
+  {
+    "id": "r24", "name": "Minestrone", "cuisine": "Italian", "course": "Soup",
+    "time_minutes": 45, "servings": 6, "difficulty": "Easy",
+    "description": "Rustic Italian vegetable soup with beans, small pasta and tomato.",
+    "tags": ["soup", "vegetable", "hearty", "one pot"],
+    "ingredients": [
+      {"name": "pasta", "quantity": "100 g small shapes"}, {"name": "kidney bean", "quantity": "1 can"},
+      {"name": "carrot", "quantity": "2"}, {"name": "celery", "quantity": "2 sticks"},
+      {"name": "onion", "quantity": "1"}, {"name": "tomato", "quantity": "400 g, chopped"},
+      {"name": "zucchini", "quantity": "1"}, {"name": "vegetable broth", "quantity": "1.2 litres"},
+      {"name": "garlic", "quantity": "2 cloves"}, {"name": "olive oil", "quantity": "2 tbsp"},
+      {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Saute onion, carrot, celery and garlic in olive oil for 8 minutes.",
+      "Add zucchini, tomatoes and broth and simmer 15 minutes.",
+      "Add the beans and pasta and cook until the pasta is tender.",
+      "Season and serve with a drizzle of olive oil."
+    ]
+  },
+  {
+    "id": "r25", "name": "Chicken Noodle Soup", "cuisine": "American", "course": "Soup",
+    "time_minutes": 45, "servings": 4, "difficulty": "Easy",
+    "description": "Classic soothing soup of chicken, egg noodles and vegetables in a herby broth.",
+    "tags": ["soup", "comfort", "classic"],
+    "ingredients": [
+      {"name": "chicken", "quantity": "2 breasts"}, {"name": "egg noodles", "quantity": "150 g"},
+      {"name": "carrot", "quantity": "2"}, {"name": "celery", "quantity": "2 sticks"},
+      {"name": "onion", "quantity": "1"}, {"name": "chicken broth", "quantity": "1.5 litres"},
+      {"name": "thyme", "quantity": "2 sprigs"}, {"name": "parsley", "quantity": "a handful"},
+      {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Simmer the chicken in the broth with thyme for 20 minutes; remove and shred.",
+      "Add the chopped onion, carrot and celery and cook 10 minutes.",
+      "Add the egg noodles and cook until tender.",
+      "Return the shredded chicken, season and finish with parsley."
+    ]
+  },
+  {
+    "id": "r26", "name": "Fluffy Pancakes", "cuisine": "American", "course": "Breakfast",
+    "time_minutes": 20, "servings": 4, "difficulty": "Easy",
+    "description": "Tall, fluffy buttermilk-style pancakes for a perfect weekend breakfast.",
+    "tags": ["breakfast", "sweet", "brunch"],
+    "ingredients": [
+      {"name": "flour", "quantity": "200 g"}, {"name": "milk", "quantity": "250 ml"},
+      {"name": "egg", "quantity": "1"}, {"name": "butter", "quantity": "30 g, melted"},
+      {"name": "sugar", "quantity": "2 tbsp"}, {"name": "baking powder", "quantity": "2 tsp"},
+      {"name": "salt", "quantity": "a pinch"}
+    ],
+    "instructions": [
+      "Whisk flour, sugar, baking powder and salt in a bowl.",
+      "Whisk milk, egg and melted butter separately and fold into the dry mix; leave lumpy.",
+      "Cook ladlefuls on a buttered hot pan until bubbles form, flip and cook 1 more minute.",
+      "Serve stacked with maple syrup or fruit."
+    ]
+  },
+  {
+    "id": "r27", "name": "Shakshuka", "cuisine": "Middle Eastern", "course": "Breakfast",
+    "time_minutes": 30, "servings": 2, "difficulty": "Easy",
+    "description": "Eggs gently poached in a spiced tomato and bell pepper sauce.",
+    "tags": ["eggs", "brunch", "one pan", "spicy"],
+    "ingredients": [
+      {"name": "egg", "quantity": "4"}, {"name": "tomato", "quantity": "400 g"},
+      {"name": "bell pepper", "quantity": "1"}, {"name": "onion", "quantity": "1"},
+      {"name": "garlic", "quantity": "2 cloves"}, {"name": "cumin", "quantity": "1 tsp"},
+      {"name": "paprika", "quantity": "1 tsp"}, {"name": "olive oil", "quantity": "2 tbsp"},
+      {"name": "cilantro", "quantity": "to garnish"}, {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Cook onion and bell pepper in olive oil until soft; add garlic, cumin and paprika.",
+      "Add tomatoes and simmer 10 minutes until thickened.",
+      "Make wells in the sauce, crack in the eggs, cover and cook until whites are set.",
+      "Garnish with cilantro and serve with bread."
+    ]
+  },
+  {
+    "id": "r28", "name": "Avocado Toast with Egg", "cuisine": "American", "course": "Breakfast",
+    "time_minutes": 10, "servings": 1, "difficulty": "Easy",
+    "description": "Smashed avocado on crunchy toast with lemon, chili flakes and a fried egg.",
+    "tags": ["breakfast", "quick", "healthy"],
+    "ingredients": [
+      {"name": "bread", "quantity": "2 slices"}, {"name": "avocado", "quantity": "1"},
+      {"name": "lemon", "quantity": "1/2"}, {"name": "chili flakes", "quantity": "a pinch"},
+      {"name": "egg", "quantity": "1"}, {"name": "salt", "quantity": "a pinch"}
+    ],
+    "instructions": [
+      "Toast the bread until golden.",
+      "Mash the avocado with lemon juice and salt.",
+      "Fry the egg to your liking.",
+      "Spread avocado on toast, top with the egg and chili flakes."
+    ]
+  },
+  {
+    "id": "r29", "name": "Berry Overnight Oats", "cuisine": "American", "course": "Breakfast",
+    "time_minutes": 5, "servings": 1, "difficulty": "Easy",
+    "description": "No-cook creamy oats soaked overnight with chia, banana, berries and honey.",
+    "tags": ["breakfast", "no cook", "meal prep", "healthy"],
+    "ingredients": [
+      {"name": "oats", "quantity": "50 g"}, {"name": "milk", "quantity": "150 ml"},
+      {"name": "chia seed", "quantity": "1 tbsp"}, {"name": "honey", "quantity": "1 tsp"},
+      {"name": "banana", "quantity": "1/2"}, {"name": "berry", "quantity": "a handful"}
+    ],
+    "instructions": [
+      "Stir oats, milk, chia seeds and honey together in a jar.",
+      "Cover and refrigerate overnight.",
+      "In the morning top with sliced banana and berries."
+    ]
+  },
+  {
+    "id": "r30", "name": "Banana Smoothie", "cuisine": "American", "course": "Drink",
+    "time_minutes": 5, "servings": 1, "difficulty": "Easy",
+    "description": "Thick and creamy banana smoothie with yogurt and honey.",
+    "tags": ["drink", "breakfast", "quick", "fruit"],
+    "ingredients": [
+      {"name": "banana", "quantity": "2"}, {"name": "milk", "quantity": "200 ml"},
+      {"name": "yogurt", "quantity": "100 g"}, {"name": "honey", "quantity": "1 tbsp"}
+    ],
+    "instructions": [
+      "Add all ingredients to a blender.",
+      "Blend until smooth and creamy and serve chilled."
+    ]
+  },
+  {
+    "id": "r31", "name": "Veggie Omelette", "cuisine": "American", "course": "Breakfast",
+    "time_minutes": 15, "servings": 1, "difficulty": "Easy",
+    "description": "Fluffy omelette packed with spinach, bell pepper, onion and melted cheese.",
+    "tags": ["eggs", "breakfast", "protein", "quick"],
+    "ingredients": [
+      {"name": "egg", "quantity": "3"}, {"name": "bell pepper", "quantity": "1/4, diced"},
+      {"name": "onion", "quantity": "1/4, diced"}, {"name": "spinach", "quantity": "a handful"},
+      {"name": "cheese", "quantity": "30 g"}, {"name": "butter", "quantity": "1 tsp"},
+      {"name": "salt", "quantity": "a pinch"}
+    ],
+    "instructions": [
+      "Saute the onion, bell pepper and spinach in butter for 2 minutes.",
+      "Pour in the beaten eggs and cook gently, lifting edges to let the egg flow.",
+      "Add cheese, fold the omelette in half and serve."
+    ]
+  },
+  {
+    "id": "r32", "name": "Chocolate Chip Cookies", "cuisine": "American", "course": "Dessert",
+    "time_minutes": 30, "servings": 24, "difficulty": "Easy",
+    "description": "Chewy, golden cookies studded with chocolate chips.",
+    "tags": ["baking", "sweet", "cookies", "chocolate"],
+    "ingredients": [
+      {"name": "flour", "quantity": "280 g"}, {"name": "butter", "quantity": "170 g"},
+      {"name": "sugar", "quantity": "100 g"}, {"name": "brown sugar", "quantity": "150 g"},
+      {"name": "egg", "quantity": "2"}, {"name": "chocolate chip", "quantity": "200 g"},
+      {"name": "baking soda", "quantity": "1 tsp"}, {"name": "vanilla", "quantity": "2 tsp"},
+      {"name": "salt", "quantity": "1/2 tsp"}
+    ],
+    "instructions": [
+      "Cream the butter with both sugars until fluffy, then beat in eggs and vanilla.",
+      "Mix in flour, baking soda and salt, then fold in chocolate chips.",
+      "Scoop onto a lined tray and bake at 180C for 10-12 minutes.",
+      "Cool on the tray for 5 minutes before moving."
+    ]
+  },
+  {
+    "id": "r33", "name": "Chocolate Mug Cake", "cuisine": "American", "course": "Dessert",
+    "time_minutes": 5, "servings": 1, "difficulty": "Easy",
+    "description": "Eggless microwave chocolate cake ready in five minutes.",
+    "tags": ["dessert", "microwave", "quick", "chocolate"],
+    "ingredients": [
+      {"name": "flour", "quantity": "4 tbsp"}, {"name": "cocoa powder", "quantity": "2 tbsp"},
+      {"name": "sugar", "quantity": "3 tbsp"}, {"name": "milk", "quantity": "4 tbsp"},
+      {"name": "oil", "quantity": "2 tbsp"}, {"name": "baking powder", "quantity": "1/4 tsp"}
+    ],
+    "instructions": [
+      "Mix flour, cocoa, sugar and baking powder in a large mug.",
+      "Stir in milk and oil until smooth.",
+      "Microwave on high for 70-90 seconds until risen; cool slightly."
+    ]
+  },
+  {
+    "id": "r34", "name": "Tropical Fruit Salad", "cuisine": "American", "course": "Dessert",
+    "time_minutes": 10, "servings": 4, "difficulty": "Easy",
+    "description": "Colourful bowl of fresh fruit tossed with honey, lime and mint.",
+    "tags": ["fruit", "no cook", "fresh", "healthy", "salad"],
+    "ingredients": [
+      {"name": "apple", "quantity": "1"}, {"name": "banana", "quantity": "2"},
+      {"name": "orange", "quantity": "2"}, {"name": "grape", "quantity": "150 g"},
+      {"name": "berry", "quantity": "150 g"}, {"name": "honey", "quantity": "1 tbsp"},
+      {"name": "mint", "quantity": "a few leaves"}, {"name": "lime", "quantity": "1"}
+    ],
+    "instructions": [
+      "Chop all the fruit into bite-sized pieces.",
+      "Whisk honey with lime juice and toss through the fruit.",
+      "Garnish with torn mint and serve chilled."
+    ]
+  },
+  {
+    "id": "r35", "name": "Mango Lassi", "cuisine": "Indian", "course": "Drink",
+    "time_minutes": 5, "servings": 2, "difficulty": "Easy",
+    "description": "Refreshing yogurt and mango drink scented with cardamom.",
+    "tags": ["drink", "summer", "sweet", "fruit"],
+    "ingredients": [
+      {"name": "mango", "quantity": "2 ripe"}, {"name": "yogurt", "quantity": "250 g"},
+      {"name": "milk", "quantity": "100 ml"}, {"name": "sugar", "quantity": "2 tbsp"},
+      {"name": "cardamom", "quantity": "a pinch"}
+    ],
+    "instructions": [
+      "Peel and chop the mango.",
+      "Blend with yogurt, milk, sugar and cardamom until frothy.",
+      "Serve over ice."
+    ]
+  },
+  {
+    "id": "r36", "name": "Classic Hummus", "cuisine": "Middle Eastern", "course": "Snack",
+    "time_minutes": 10, "servings": 6, "difficulty": "Easy",
+    "description": "Ultra-smooth chickpea dip with tahini, lemon and garlic.",
+    "tags": ["dip", "no cook", "protein", "party"],
+    "ingredients": [
+      {"name": "chickpea", "quantity": "1 can"}, {"name": "tahini", "quantity": "4 tbsp"},
+      {"name": "lemon", "quantity": "1"}, {"name": "garlic", "quantity": "1 clove"},
+      {"name": "olive oil", "quantity": "3 tbsp"}, {"name": "cumin", "quantity": "1/2 tsp"},
+      {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Blend tahini and lemon juice for 1 minute until whipped.",
+      "Add chickpeas, garlic, cumin and salt and blend, adding ice water until silky.",
+      "Serve drizzled with olive oil."
+    ]
+  },
+  {
+    "id": "r37", "name": "Falafel Wrap", "cuisine": "Middle Eastern", "course": "Main",
+    "time_minutes": 40, "servings": 4, "difficulty": "Medium",
+    "description": "Crispy herby chickpea falafel wrapped in pita with tahini sauce and salad.",
+    "tags": ["wrap", "street food", "protein", "fried"],
+    "ingredients": [
+      {"name": "chickpea", "quantity": "400 g soaked"}, {"name": "onion", "quantity": "1"},
+      {"name": "garlic", "quantity": "3 cloves"}, {"name": "parsley", "quantity": "a big handful"},
+      {"name": "cumin", "quantity": "2 tsp"}, {"name": "flour", "quantity": "2 tbsp"},
+      {"name": "pita bread", "quantity": "4"}, {"name": "tahini", "quantity": "3 tbsp"},
+      {"name": "lettuce", "quantity": "a few leaves"}, {"name": "tomato", "quantity": "2"},
+      {"name": "oil", "quantity": "for frying"}
+    ],
+    "instructions": [
+      "Pulse chickpeas, onion, garlic, parsley and cumin to a coarse paste; mix in flour.",
+      "Shape into small patties and fry in hot oil until deep golden.",
+      "Thin the tahini with lemon and water to make a sauce.",
+      "Fill pita with lettuce, tomato and falafel and drizzle with tahini sauce."
+    ]
+  },
+  {
+    "id": "r38", "name": "Classic Beef Burger", "cuisine": "American", "course": "Main",
+    "time_minutes": 25, "servings": 4, "difficulty": "Easy",
+    "description": "Juicy grilled beef patties with melted cheese, lettuce and tomato in a soft bun.",
+    "tags": ["burger", "grill", "comfort", "cheesy"],
+    "ingredients": [
+      {"name": "beef", "quantity": "500 g minced"}, {"name": "burger bun", "quantity": "4"},
+      {"name": "cheese", "quantity": "4 slices"}, {"name": "lettuce", "quantity": "4 leaves"},
+      {"name": "tomato", "quantity": "1"}, {"name": "onion", "quantity": "1"},
+      {"name": "salt", "quantity": "1 tsp"}, {"name": "black pepper", "quantity": "1 tsp"}
+    ],
+    "instructions": [
+      "Season the beef with salt and pepper and shape into 4 patties.",
+      "Grill or pan-fry for 3-4 minutes per side, adding cheese for the last minute.",
+      "Toast the buns and layer with lettuce, tomato, onion and the patty."
+    ]
+  },
+  {
+    "id": "r39", "name": "Lemon Herb Grilled Chicken", "cuisine": "Mediterranean", "course": "Main",
+    "time_minutes": 35, "servings": 4, "difficulty": "Easy",
+    "description": "Tender chicken marinated in lemon, garlic, rosemary and thyme, then grilled.",
+    "tags": ["grill", "protein", "dinner", "healthy"],
+    "ingredients": [
+      {"name": "chicken", "quantity": "4 breasts"}, {"name": "lemon", "quantity": "2"},
+      {"name": "garlic", "quantity": "3 cloves"}, {"name": "rosemary", "quantity": "2 sprigs"},
+      {"name": "thyme", "quantity": "2 sprigs"}, {"name": "olive oil", "quantity": "3 tbsp"},
+      {"name": "salt", "quantity": "1 tsp"}, {"name": "black pepper", "quantity": "1/2 tsp"}
+    ],
+    "instructions": [
+      "Whisk lemon juice and zest, garlic, chopped herbs, olive oil, salt and pepper.",
+      "Marinate the chicken for at least 15 minutes.",
+      "Grill over medium-high heat for 6-7 minutes per side until cooked through.",
+      "Rest 5 minutes before slicing."
+    ]
+  },
+  {
+    "id": "r40", "name": "Baked Salmon with Asparagus", "cuisine": "American", "course": "Main",
+    "time_minutes": 25, "servings": 2, "difficulty": "Easy",
+    "description": "One-tray lemon-garlic butter salmon roasted with asparagus and dill.",
+    "tags": ["fish", "one pan", "dinner", "healthy"],
+    "ingredients": [
+      {"name": "salmon", "quantity": "2 fillets"}, {"name": "asparagus", "quantity": "1 bunch"},
+      {"name": "lemon", "quantity": "1"}, {"name": "garlic", "quantity": "2 cloves"},
+      {"name": "butter", "quantity": "30 g"}, {"name": "dill", "quantity": "a few sprigs"},
+      {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Arrange salmon and asparagus on a tray.",
+      "Melt butter with garlic and pour over; add lemon slices and dill.",
+      "Bake at 200C for 12-15 minutes until the salmon flakes."
+    ]
+  },
+  {
+    "id": "r41", "name": "Baked Mac and Cheese", "cuisine": "American", "course": "Main",
+    "time_minutes": 30, "servings": 4, "difficulty": "Easy",
+    "description": "Macaroni in a rich cheddar cheese sauce, baked until bubbling.",
+    "tags": ["pasta", "cheesy", "comfort", "baked"],
+    "ingredients": [
+      {"name": "macaroni", "quantity": "300 g"}, {"name": "cheddar", "quantity": "200 g"},
+      {"name": "milk", "quantity": "500 ml"}, {"name": "butter", "quantity": "40 g"},
+      {"name": "flour", "quantity": "40 g"}, {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Boil the macaroni until just under al dente and drain.",
+      "Melt butter, whisk in flour, then gradually add milk to make a smooth sauce.",
+      "Stir in most of the cheddar until melted, then the pasta.",
+      "Top with remaining cheddar and bake at 200C for 15 minutes."
+    ]
+  },
+  {
+    "id": "r42", "name": "Lemony Lentil Soup", "cuisine": "Middle Eastern", "course": "Soup",
+    "time_minutes": 40, "servings": 4, "difficulty": "Easy",
+    "description": "Hearty red lentil and vegetable soup brightened with lemon and cumin.",
+    "tags": ["soup", "vegetable", "protein", "healthy"],
+    "ingredients": [
+      {"name": "lentil", "quantity": "200 g red"}, {"name": "carrot", "quantity": "2"},
+      {"name": "celery", "quantity": "1 stick"}, {"name": "onion", "quantity": "1"},
+      {"name": "garlic", "quantity": "2 cloves"}, {"name": "cumin", "quantity": "1 tsp"},
+      {"name": "vegetable broth", "quantity": "1 litre"}, {"name": "tomato", "quantity": "2"},
+      {"name": "lemon", "quantity": "1"}, {"name": "olive oil", "quantity": "1 tbsp"}
+    ],
+    "instructions": [
+      "Saute onion, carrot, celery and garlic in olive oil for 5 minutes.",
+      "Add cumin, lentils, tomatoes and broth and simmer 25 minutes.",
+      "Blend partially for a creamy texture and finish with lemon juice."
+    ]
+  },
+  {
+    "id": "r43", "name": "Turmeric Tofu Scramble", "cuisine": "American", "course": "Breakfast",
+    "time_minutes": 15, "servings": 2, "difficulty": "Easy",
+    "description": "Plant-based protein breakfast of crumbled tofu with turmeric, spinach and pepper.",
+    "tags": ["breakfast", "plant based", "protein", "quick"],
+    "ingredients": [
+      {"name": "tofu", "quantity": "300 g firm"}, {"name": "turmeric", "quantity": "1/2 tsp"},
+      {"name": "spinach", "quantity": "2 handfuls"}, {"name": "onion", "quantity": "1/2"},
+      {"name": "bell pepper", "quantity": "1/2"}, {"name": "olive oil", "quantity": "1 tbsp"},
+      {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Saute onion and bell pepper in olive oil until soft.",
+      "Crumble in the tofu with turmeric and salt and cook 5 minutes.",
+      "Fold in spinach until wilted and serve with toast."
+    ]
+  },
+  {
+    "id": "r44", "name": "Quinoa Chickpea Salad", "cuisine": "Mediterranean", "course": "Salad",
+    "time_minutes": 25, "servings": 4, "difficulty": "Easy",
+    "description": "Protein-rich salad of quinoa, chickpeas, cucumber, tomato and parsley in lemon dressing.",
+    "tags": ["salad", "meal prep", "healthy", "protein"],
+    "ingredients": [
+      {"name": "quinoa", "quantity": "200 g"}, {"name": "chickpea", "quantity": "1 can"},
+      {"name": "cucumber", "quantity": "1"}, {"name": "tomato", "quantity": "2"},
+      {"name": "parsley", "quantity": "a handful"}, {"name": "lemon", "quantity": "1"},
+      {"name": "olive oil", "quantity": "3 tbsp"}, {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Rinse and cook the quinoa for 15 minutes; cool.",
+      "Chop the cucumber, tomato and parsley.",
+      "Toss everything with chickpeas, lemon juice, olive oil and salt."
+    ]
+  },
+  {
+    "id": "r45", "name": "Aloo Gobi", "cuisine": "Indian", "course": "Main",
+    "time_minutes": 35, "servings": 4, "difficulty": "Easy",
+    "description": "Dry-spiced potato and cauliflower curry with turmeric, cumin and ginger.",
+    "tags": ["curry", "vegetable", "spicy", "everyday"],
+    "ingredients": [
+      {"name": "potato", "quantity": "3"}, {"name": "cauliflower", "quantity": "1 head"},
+      {"name": "onion", "quantity": "1"}, {"name": "tomato", "quantity": "2"},
+      {"name": "turmeric", "quantity": "1 tsp"}, {"name": "cumin", "quantity": "1 tsp"},
+      {"name": "garam masala", "quantity": "1 tsp"}, {"name": "ginger", "quantity": "1 inch"},
+      {"name": "cilantro", "quantity": "to garnish"}, {"name": "oil", "quantity": "3 tbsp"},
+      {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Heat oil and crackle the cumin seeds; add onion and ginger and cook until golden.",
+      "Add tomato, turmeric and salt and cook to a paste.",
+      "Add potato and cauliflower florets, cover and cook on low for 20 minutes, stirring.",
+      "Sprinkle garam masala and cilantro before serving."
+    ]
+  },
+  {
+    "id": "r46", "name": "Garlic Butter Shrimp Pasta", "cuisine": "Italian", "course": "Main",
+    "time_minutes": 20, "servings": 2, "difficulty": "Easy",
+    "description": "Spaghetti tossed with juicy shrimp in a lemony garlic butter sauce.",
+    "tags": ["pasta", "seafood", "quick", "dinner"],
+    "ingredients": [
+      {"name": "shrimp", "quantity": "250 g"}, {"name": "spaghetti", "quantity": "200 g"},
+      {"name": "garlic", "quantity": "4 cloves"}, {"name": "butter", "quantity": "40 g"},
+      {"name": "lemon", "quantity": "1"}, {"name": "parsley", "quantity": "a handful"},
+      {"name": "chili flakes", "quantity": "a pinch"}, {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Cook the spaghetti in salted water.",
+      "Melt butter and fry garlic and chili flakes for 1 minute.",
+      "Add the shrimp and cook 2 minutes per side until pink.",
+      "Toss with the spaghetti, lemon juice and parsley."
+    ]
+  },
+  {
+    "id": "r47", "name": "Moist Banana Bread", "cuisine": "American", "course": "Dessert",
+    "time_minutes": 70, "servings": 8, "difficulty": "Easy",
+    "description": "Classic loaf cake made with overripe bananas and toasted walnuts.",
+    "tags": ["baking", "sweet", "loaf"],
+    "ingredients": [
+      {"name": "banana", "quantity": "3 overripe"}, {"name": "flour", "quantity": "200 g"},
+      {"name": "sugar", "quantity": "120 g"}, {"name": "butter", "quantity": "80 g, melted"},
+      {"name": "egg", "quantity": "2"}, {"name": "baking soda", "quantity": "1 tsp"},
+      {"name": "vanilla", "quantity": "1 tsp"}, {"name": "walnut", "quantity": "60 g"}
+    ],
+    "instructions": [
+      "Mash the bananas and mix with melted butter, sugar, eggs and vanilla.",
+      "Fold in flour and baking soda, then the chopped walnuts.",
+      "Pour into a lined loaf tin and bake at 175C for 55-60 minutes."
+    ]
+  },
+  {
+    "id": "r48", "name": "Stuffed Bell Peppers", "cuisine": "American", "course": "Main",
+    "time_minutes": 50, "servings": 4, "difficulty": "Medium",
+    "description": "Bell peppers filled with seasoned beef, rice and tomato, topped with cheese.",
+    "tags": ["baked", "dinner", "cheesy"],
+    "ingredients": [
+      {"name": "bell pepper", "quantity": "4 large"}, {"name": "rice", "quantity": "150 g cooked"},
+      {"name": "beef", "quantity": "300 g minced"}, {"name": "tomato", "quantity": "400 g"},
+      {"name": "onion", "quantity": "1"}, {"name": "cheese", "quantity": "80 g"},
+      {"name": "garlic", "quantity": "2 cloves"}, {"name": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Cut tops off the peppers and remove seeds.",
+      "Brown the beef with onion and garlic, then stir in tomato and rice.",
+      "Fill the peppers, top with cheese and bake at 190C for 30 minutes."
+    ]
+  },
+  {
+    "id": "r49", "name": "Crispy Roasted Potatoes", "cuisine": "American", "course": "Side",
+    "time_minutes": 45, "servings": 4, "difficulty": "Easy",
+    "description": "Golden, crunchy potatoes roasted with garlic, rosemary and smoked paprika.",
+    "tags": ["side", "roast", "crispy"],
+    "ingredients": [
+      {"name": "potato", "quantity": "1 kg"}, {"name": "olive oil", "quantity": "4 tbsp"},
+      {"name": "garlic", "quantity": "4 cloves"}, {"name": "rosemary", "quantity": "2 sprigs"},
+      {"name": "paprika", "quantity": "1 tsp"}, {"name": "salt", "quantity": "1 tsp"}
+    ],
+    "instructions": [
+      "Par-boil potato chunks for 8 minutes, drain and rough up the edges.",
+      "Toss with olive oil, garlic, rosemary, paprika and salt.",
+      "Roast at 220C for 35 minutes, turning once, until crisp."
+    ]
+  },
+  {
+    "id": "r50", "name": "Cheesy Vegetable Quesadilla", "cuisine": "Mexican", "course": "Snack",
+    "time_minutes": 20, "servings": 2, "difficulty": "Easy",
+    "description": "Crispy flour tortillas stuffed with melted cheese, black beans, corn and peppers.",
+    "tags": ["cheesy", "quick", "snack", "kids"],
+    "ingredients": [
+      {"name": "flour tortilla", "quantity": "4"}, {"name": "cheese", "quantity": "150 g grated"},
+      {"name": "bell pepper", "quantity": "1"}, {"name": "onion", "quantity": "1/2"},
+      {"name": "black bean", "quantity": "1/2 can"}, {"name": "corn", "quantity": "80 g"},
+      {"name": "oil", "quantity": "1 tsp"}
+    ],
+    "instructions": [
+      "Saute bell pepper and onion until soft; mix with beans and corn.",
+      "Scatter cheese and filling over half of each tortilla and fold.",
+      "Cook in a lightly oiled pan for 2-3 minutes per side until golden and melted.",
+      "Cut into wedges and serve with salsa or guacamole."
+    ]
+  }
+]

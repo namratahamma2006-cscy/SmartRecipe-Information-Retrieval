@@ -1,0 +1,10 @@
+[project]
+name = "smartrecipe"
+version = "1.0.0"
+description = "SmartRecipe - Recipe Information Retrieval System (TF-IDF + cosine similarity)"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests", "smartrecipe"]
+addopts = "-q --doctest-modules"
